@@ -1,0 +1,37 @@
+//
+//  FFTSDownloader.h
+//  ffmpeg
+//
+//  Created by Jayson on 2019/6/28.
+//  Copyright © 2019年 AA. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#define kDownloadProgressNotification @"downloadProgressNotification"
+#define kDownloadCompletionNotification @"downloadCompletionNotification"
+
+
+
+@interface AATSDownloader : NSObject
+
++ (AATSDownloader *)sharedManager;
+
++ (NSString *)getCacheUrl:(NSString *)url;
++ (BOOL)canDelete:(NSString *)url;
++ (void)delete:(NSString *)url;
+
+- (void)cancel;
+- (BOOL)urlIsRun:(NSString *)url;
+
+
+- (void)dowloadWithUrl:(NSString *)url
+              fileName:(NSString *)fileName
+          processBlock:(void (^)(float, float))processBlock
+       completionBlock:(void (^)(NSError *))completionBlock;
+
++ (NSString *)getState:(NSString *)url;
+
++ (NSMutableArray *)videoList;
+
+@end
