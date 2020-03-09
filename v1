@@ -1,0 +1,9 @@
+set user root
+set host 129.204.117.172
+set password xxxxxxxxxx
+
+spawn ssh $user@$host
+expect "*assword:*"
+send "$password\r"
+interact
+expect eof
