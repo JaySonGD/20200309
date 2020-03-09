@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BBCell">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="64" height="144"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oGg-2E-7gZ" customClass="FLAnimatedImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="64" height="144"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfM-X8-mOB">
+                        <rect key="frame" x="20" y="114" width="44" height="30"/>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.64705882349999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="bJa-nU-4mU"/>
+                            <constraint firstAttribute="height" constant="30" id="hUE-cX-H6N"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <state key="normal" title="保存">
+                            <color key="titleColor" red="1" green="0.34901960780000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <state key="selected" title="取消"/>
+                        <connections>
+                            <action selector="action:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ZmF-G0-oCL"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="oGg-2E-7gZ" secondAttribute="bottom" id="QlG-zK-GJp"/>
+                <constraint firstAttribute="trailing" secondItem="SfM-X8-mOB" secondAttribute="trailing" id="UMG-KH-vIX"/>
+                <constraint firstAttribute="trailing" secondItem="oGg-2E-7gZ" secondAttribute="trailing" id="Wvh-cP-iy4"/>
+                <constraint firstAttribute="bottom" secondItem="SfM-X8-mOB" secondAttribute="bottom" id="YP2-aI-YTp"/>
+                <constraint firstItem="oGg-2E-7gZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mfa-II-z0a"/>
+                <constraint firstItem="oGg-2E-7gZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zcO-XO-v6a"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="64" height="144"/>
+            <connections>
+                <outlet property="btn" destination="SfM-X8-mOB" id="ps4-ph-D4h"/>
+                <outlet property="imageView" destination="oGg-2E-7gZ" id="avT-1J-wab"/>
+            </connections>
+            <point key="canvasLocation" x="64" y="139.43028485757122"/>
+        </collectionViewCell>
+    </objects>
+</document>

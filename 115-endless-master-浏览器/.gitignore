@@ -1,0 +1,12 @@
+.DS_Store
+build/*
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+Pods
+
+Endless/DonationViewController.h
+Endless/DonationViewController.m
