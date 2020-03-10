@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="iwG-ri-r6u">
+                                <rect key="frame" x="80" y="737" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9gC-Ck-tH6"/>
+                                    <constraint firstAttribute="width" constant="100" id="o7f-gL-9xb"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="体形管家" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFJ-gX-y0R">
+                                <rect key="frame" x="202" y="753" width="69.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3rI-Kf-ntN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.13067474961280823" blue="0.34301286935806274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="智能生活，如此简单" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d85-po-XWd">
+                                <rect key="frame" x="202" y="791" width="183.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rTI-EW-PUq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.85022991895675659" green="0.72745364904403687" blue="0.56280750036239624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="开屏页" translatesAutoresizingMaskIntoConstraints="NO" id="Fw2-Du-IPe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" red="0.98846393823623657" green="0.98119992017745972" blue="0.93521100282669067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d85-po-XWd" firstAttribute="top" secondItem="UFJ-gX-y0R" secondAttribute="bottom" constant="8" id="2pL-ox-Wu8"/>
+                            <constraint firstItem="Fw2-Du-IPe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ARb-iF-Wkm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d85-po-XWd" secondAttribute="bottom" constant="41" id="C8N-dp-SiH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fw2-Du-IPe" secondAttribute="bottom" id="EGC-yJ-6jV"/>
+                            <constraint firstItem="iwG-ri-r6u" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-77" id="H52-WB-AYu"/>
+                            <constraint firstItem="d85-po-XWd" firstAttribute="leading" secondItem="iwG-ri-r6u" secondAttribute="trailing" constant="22" id="WOi-Ek-e9Z"/>
+                            <constraint firstItem="UFJ-gX-y0R" firstAttribute="leading" secondItem="iwG-ri-r6u" secondAttribute="trailing" constant="22" id="aNG-fy-sgh"/>
+                            <constraint firstItem="Fw2-Du-IPe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gkL-Ga-HlX"/>
+                            <constraint firstItem="Fw2-Du-IPe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="p1r-WT-fjz"/>
+                            <constraint firstItem="iwG-ri-r6u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-25" id="uKZ-Zt-Msn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="100" height="100"/>
+        <image name="开屏页" width="750" height="1334"/>
+    </resources>
+</document>

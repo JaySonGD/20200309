@@ -1,0 +1,402 @@
+{
+    code = 0;
+    message = success;
+    result =     {
+        accountId = 13;
+        bust =         {
+            down =             {
+                location =                 {
+                    x = "0.6254712343215942";
+                    y = "1.124770998954773";
+                    z = "0.34851935505867";
+                };
+                value = 1;
+            };
+            normal =             {
+                location =                 {
+                    x = "0.624287486076355";
+                    y = "1.10474681854248";
+                    z = "0.3486022651195526";
+                };
+                value = 1;
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        bustDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        createTime = "2019-07-05 23:05:54";
+        deviceMac = "11:22:33:44";
+        figureRecordId = "<null>";
+        height = "163.5";
+        hipline =         {
+            down =             {
+                location =                 {
+                    x = "0.6321396231651306";
+                    y = "1.504825472831726";
+                    z = "0.6106873750686646";
+                };
+                value = "1.03";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.6300031542778015";
+                    y = "1.484554767608643";
+                    z = "0.6149795055389404";
+                };
+                value = "1.03";
+            };
+            up =             {
+                location =                 {
+                    x = "0.6285361647605896";
+                    y = "1.464563488960266";
+                    z = "0.6148582100868225";
+                };
+                value = "1.04";
+            };
+        };
+        hiplineDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        imgUrl = "<null>";
+        leftLeg =         {
+            down =             {
+                location =                 {
+                    x = "0.701208770275116";
+                    y = "2.0413658618927";
+                    z = "0.5358486175537109";
+                };
+                value = "0.35";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.7012078166007996";
+                    y = "2.039368391036987";
+                    z = "0.535747230052948";
+                };
+                value = "0.35";
+            };
+            up =             {
+                location =                 {
+                    x = "0.6990689635276794";
+                    y = "2.031163215637207";
+                    z = "0.5395745038986206";
+                };
+                value = "0.35";
+            };
+        };
+        leftLegDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        leftLowerArm =         {
+            down =             {
+                location =                 {
+                    x = "0.9808222651481628";
+                    y = "1.236805319786072";
+                    z = "0.4338255524635315";
+                };
+                value = "0.24";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.9719219207763672";
+                    y = "1.219003796577454";
+                    z = "0.4364485144615173";
+                };
+                value = "0.24";
+            };
+            up =             {
+                location =                 {
+                    x = "0.9615567326545715";
+                    y = "1.202156066894531";
+                    z = "0.4394016563892365";
+                };
+                value = "0.25";
+            };
+        };
+        leftLowerArmDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        leftThigh =         {
+            down =             {
+                location =                 {
+                    x = "0.6469956040382385";
+                    y = "1.627210259437561";
+                    z = "0.4937151074409485";
+                };
+                value = "0.59";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.6449499130249023";
+                    y = "1.60793399810791";
+                    z = "0.4842944145202637";
+                };
+                value = "0.61";
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        leftThighDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        leftUpperArm =         {
+            down =             {
+                location =                 {
+                    x = "0.7893113493919373";
+                    y = "1.072741985321045";
+                    z = "0.4591690301895142";
+                };
+                value = "0.31";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.7819869518280029";
+                    y = "1.053765892982483";
+                    z = "0.4616328477859497";
+                };
+                value = "0.32";
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        leftUpperArmDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        modelUrl = "https://siot-ruler-oss-private.oss-cn-beijing.aliyuncs.com/device/report/annex/20190719/3a%3A3e%3A5c%3A7d/032407/model.ply?OSSAccessKeyId=LTAIMSW8Fb1ohbzk&Expires=1566508300&Signature=HcpmRXfJs%2BJi9eqGjlpXX1tEeW4%3D";
+        personId = 18;
+        personName = zws2;
+        reportTime = "2019-07-05 23:05:28";
+        rightLeg =         {
+            down =             {
+                location =                 {
+                    x = "0.4581234753131866";
+                    y = "2.051401138305664";
+                    z = "0.5688561797142029";
+                };
+                value = "0.35";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.4580837786197662";
+                    y = "2.052397489547729";
+                    z = "0.5689330101013184";
+                };
+                value = "0.35";
+            };
+            up =             {
+                location =                 {
+                    x = "0.4591546058654785";
+                    y = "2.041456937789917";
+                    z = "0.5679903626441956";
+                };
+                value = "0.35";
+            };
+        };
+        rightLegDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        rightLowerArm =         {
+            down =             {
+                location =                 {
+                    x = "0.2506312429904938";
+                    y = "1.253388285636902";
+                    z = "0.4049963057041168";
+                };
+                value = "0.24";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.2586996853351593";
+                    y = "1.235256671905518";
+                    z = "0.4085816740989685";
+                };
+                value = "0.25";
+            };
+            up =             {
+                location =                 {
+                    x = "0.2678385078907013";
+                    y = "1.217881441116333";
+                    z = "0.4125886559486389";
+                };
+                value = "0.25";
+            };
+        };
+        rightLowerArmDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        rightThigh =         {
+            down =             {
+                location =                 {
+                    x = "0.6343331336975098";
+                    y = "1.628603339195251";
+                    z = "0.4856483340263367";
+                };
+                value = "0.6";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.6367875933647156";
+                    y = "1.608473658561707";
+                    z = "0.4840074777603149";
+                };
+                value = "0.61";
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        rightThighDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        rightUpperArm =         {
+            down =             {
+                location =                 {
+                    x = "0.4302200973033905";
+                    y = "1.093136429786682";
+                    z = "0.4609004259109497";
+                };
+                value = "0.31";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.4342044591903687";
+                    y = "1.072561025619507";
+                    z = "0.4614727199077606";
+                };
+                value = "0.32";
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        rightUpperArmDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        shoulder =         {
+            down =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+            normal =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = "0.38";
+            };
+            up =             {
+                location =                 {
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                };
+                value = 0;
+            };
+        };
+        shoulderDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        status = 0;
+        waist =         {
+            down =             {
+                location =                 {
+                    x = "0.6375617980957031";
+                    y = "1.38770067691803";
+                    z = "0.3230500519275665";
+                };
+                value = "0.99";
+            };
+            normal =             {
+                location =                 {
+                    x = "0.6364778280258179";
+                    y = "1.36759090423584";
+                    z = "0.3242198824882507";
+                };
+                value = "0.95";
+            };
+            up =             {
+                location =                 {
+                    x = "0.6354140043258667";
+                    y = "1.347458600997925";
+                    z = "0.3256809115409851";
+                };
+                value = "0.92";
+            };
+        };
+        waistDiffer =         {
+            down = 0;
+            down1 = "<null>";
+            normal = 0;
+            up = 0;
+        };
+        weight = "50.75";
+    };
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - loaders - OBJ loader</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+
+	</head>
+    <script>
+    function appToH5(message) {
+//    alert(message);
+        $('#box1').html(message);
+    }
+    </script>
+    <script>
+        /*
+         参数 bodyPart 部位类型：
+         左上臂：leftUpperArm
+         右上臂：rightUpperArm
+         左下臂：leftLowerArm
+         右下臂：rightLowerArm
+         胸：bust
+         臀：hipline
+         腰：waist
+         左小腿：leftLeg
+         左大腿：leftThigh
+         右小腿：rightLeg
+         右大腿：rightThigh
+         肩：shoulder
+         
+         */
+        function buttonAction(bodyPart) {
+            if(android){ //android
+                window.android.h5ToApp({
+                                          "bodyPart": bodyPart
+                                          });
+            }else{//ios
+                window.webkit.messageHandlers.h5ToApp.postMessage({
+                                                                  "bodyPart": bodyPart
+                                                                  });
+            }
+            
+        }
+    </script>
+	<body >
+		<div id="info">
+
+		</div>
+		<div id="box1">手 </div>
+        <br>  <br>  <br>  <br>  <br>
+        <div id="button_div" onclick="buttonDivAction()">
+            点击调用OC方法
+        </div>
+
+		<script src="lib/WebGL.js"></script>
+		<script src="lib/three.js"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="lib/OBJLoader.js"></script>
+		<script src="lib/DecalGeometry.js"></script>
+		<script src="lib/jquery-3.4.1.js"></script>
+		<!--<script src="js/index.js"></script>-->
+    <br>
+        <button type="button" onclick="alertAction('2323')">点我！</button>
+        <br>
+        <button type="button2" onclick="buttonDivAction()">点我！</button>
+
+    </body>
+
+</html>
