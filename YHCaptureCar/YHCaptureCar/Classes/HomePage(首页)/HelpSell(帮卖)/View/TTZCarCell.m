@@ -1,0 +1,175 @@
+//
+//  TTZCarCell.m
+//  YHCaptureCar
+//
+//  Created by Jay on 2018/3/21.
+//  Copyright © 2018年 YH. All rights reserved.
+//
+
+#import "TTZCarCell.h"
+#import <UIImageView+WebCache.h>
+
+#import "TTZCarModel.h"
+#import "NSDate+BRAdd.h"
+
+#import "YHCommon.h"
+//#import "YHNetworkManager.h"
+
+
+@interface TTZCarCell()
+@property (weak, nonatomic) IBOutlet UIImageView *flagIV;
+@property (weak, nonatomic) IBOutlet UIImageView *carPictureIV;
+@property (weak, nonatomic) IBOutlet UILabel *carNameLB;
+@property (weak, nonatomic) IBOutlet UIButton *useTimeBtn;
+@property (weak, nonatomic) IBOutlet UILabel *priceLB;
+@property (weak, nonatomic) IBOutlet UIButton *mileageBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *userPicIV;
+@property (weak, nonatomic) IBOutlet UILabel *carDescLB;
+@property (weak, nonatomic) IBOutlet UILabel *nameLB;
+@property (weak, nonatomic) IBOutlet UILabel *addTimeLB;
+@property (weak, nonatomic) IBOutlet UIButton *cityNameLB;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *desLBTop;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *carPictureLeft;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topHeight;
+@property (weak, nonatomic) IBOutlet UIView *desView;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *flagViewLeft;
+@property (weak, nonatomic) IBOutlet UILabel *priceNameLB;
+
+@end
+
+@implementation TTZCarCell
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
+    YHViewRadius(self.userPicIV, 17);
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+
+- (void)setModel:(TTZCarModel *)model
+{
+    _model = model;
+    
+    self.priceNameLB.text =  model.flag ? @"可议价" : @"价格";
+    
+    self.carPictureLeft.constant = model.flag ? 15 : 10;
+    self.desLBTop.constant = model.carDesc.length ? 14 : 0;
+    
+    self.flagIV.hidden = !model.flag;
+    [self.userPicIV sd_setImageWithURL:[NSURL URLWithString:model.userPic] placeholderImage:[UIImage imageNamed:@"userPic"]];
+    self.nameLB.text = model.name;
+    self.addTimeLB.text = [self compareCurrentTime:model.addTime];
+    self.carDescLB.text = model.carDesc;
+    
+    NSString *cityName = model.city.length ? model.city : @"未知";
+    [self.cityNameLB setTitle:[NSString stringWithFormat:@" %@",cityName] forState:UIControlStateNormal];
+    
+//    NSString *carPictureURL = model.flag? [NSString stringWithFormat:@"%@%@",SERVER_JAVA_IMAGE_URL,model.carPicture] :[NSString stringWithFormat:@"%@%@",SERVER_JAVA_NonAuthentication_IMAGE_URL,model.carPicture];
+    
+    [self.carPictureIV sd_setImageWithURL:[NSURL URLWithString:model.carPicture] placeholderImage:[UIImage imageNamed:@"carPicture"]];
+    
+    NSLog(@"%s---图片：%@", __func__,model.carPicture);
+    
+    self.carNameLB.text = model.carName;
+    
+    self.priceLB.text = model.price;//model.price.length ? [NSString stringWithFormat:@"%@万",[self formatFloat:[model.price floatValue]]] : @"面议";
+    [self.mileageBtn setTitle:[NSString stringWithFormat:@" %@万 km",[self formatFloat:[model.mileage floatValue]/10000]] forState:UIControlStateNormal];
+
+    if (model.useTime.length) {
+//        NSDateComponents *cmps = [self pleaseInsertStarTime:model.addTime andInsertEndTime:[NSDate currentDateString]];
+//        NSString *useTime = @"";
+//        if (cmps.month ==0) {
+//            useTime = [NSString stringWithFormat:@" %ld年",cmps.year];
+//        }else{
+//            useTime = [NSString stringWithFormat:@" %ld年%ld个月",cmps.year, cmps.month];
+//        }
+        [self.useTimeBtn setTitle:[NSString stringWithFormat:@" %@",model.useTime] forState:UIControlStateNormal];
+    }else{
+        [self.useTimeBtn setTitle:@" 年限未设置" forState:UIControlStateNormal];
+    }
+    
+    if (model.flag) {
+        self.topHeight.constant = 5;
+        self.flagViewLeft.constant = -35;
+        self.desView.hidden = YES;
+        self.detailTextLabel.text = nil;
+    }else{
+        self.topHeight.constant = 65;
+        self.flagViewLeft.constant = 0;
+        self.desView.hidden = NO;
+    }
+}
+
+- (NSString *)formatFloat:(float)f
+{
+    if (fmodf(f, 1)==0) {//如果有一位小数点
+        return [NSString stringWithFormat:@"%.0f",f];
+    } else if (fmodf(f*10, 1)==0) {//如果有两位小数点
+        return [NSString stringWithFormat:@"%.1f",f];
+    } else {
+        return [NSString stringWithFormat:@"%.2f",f];
+    }
+}
+
+/**
+ 计算时间差
+ */
+- (NSDateComponents *)pleaseInsertStarTime:(NSString *)time1 andInsertEndTime:(NSString *)time2{
+    // 1.将时间转换为date
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+    NSDate *date1 = [formatter dateFromString:time1];
+    NSDate *date2 = [formatter dateFromString:time2];
+    // 2.创建日历
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSCalendarUnit type = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    // 3.利用日历对象比较两个时间的差值
+    NSDateComponents *cmps = [calendar components:type fromDate:date1 toDate:date2 options:0];
+    // 4.输出结果
+    NSLog(@"两个时间相差%ld年%ld月%ld日%ld小时%ld分钟%ld秒", cmps.year, cmps.month, cmps.day, cmps.hour, cmps.minute, cmps.second);
+    return cmps;
+}
+
+- (NSString *)compareCurrentTime:(NSString *)str
+{
+    //把字符串转为NSdate
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSDate *timeDate = [dateFormatter dateFromString:str];
+    NSDate *currentDate = [NSDate date];
+    NSTimeInterval timeInterval = [currentDate timeIntervalSinceDate:timeDate];
+    long temp = 0;
+    NSString *result;
+    if (timeInterval/60 < 1)
+    {
+        result = [NSString stringWithFormat:@"刚刚"];
+    }
+    else if((temp = timeInterval/60) <60){
+        result = [NSString stringWithFormat:@"%ld分钟前",temp];
+    }
+    else if((temp = temp/60) <24){
+        result = [NSString stringWithFormat:@"%ld小时前",temp];
+    }
+    else if((temp = temp/24) <30){
+        result = [NSString stringWithFormat:@"%ld天前",temp];
+    }
+    else if((temp = temp/30) <12){
+        result = [NSString stringWithFormat:@"%ld月前",temp];
+    }
+    else{
+        temp = temp/12;
+        result = [NSString stringWithFormat:@"%ld年前",temp];
+    }
+    return  result;
+}
+
+
+@end

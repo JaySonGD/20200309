@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="1913" id="waH-l8-TnL" customClass="YHCaptureCarCell4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="1913"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="waH-l8-TnL" id="RVL-vW-eFk">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="1912.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pk7-X6-2ak">
+                        <rect key="frame" x="10" y="5" width="300" height="1897.5"/>
+                        <string key="text">一、 认证保证金
+竞买人须在竞价前交纳保证金，成为认证车商，保证金为：6000元；每竞价一辆车冻结2000元，每位认证车商最多可同时竞价三辆车。
+
+竞买人可申请退回未冻结保证金，联系工作人员申请退回保证金后，平台将在15个工作日内将款项按原路返回。
+
+竞买人在竞得车辆后，需完成交易并交纳服务费后方可解除保证金冻结。
+竞买人未成功竞得车辆，则在车辆竞价时间结束后，保证金自动解除冻结。
+
+二、车辆展示
+所有竞价车辆会提前上线至“即将开拍”处进行公示，竞买人可在详情页查看详细的看车地址及时间并前往查看实车。
+
+三、 竞买程序
+1．竞买人交纳保证金成为认证车商后，即可参与竞价。
+2．竞价采取增价竞价形式，加价幅度以APP显示为准（最低加价幅度为200元/次）。
+3．竞买人应价亦可以直接输入高于加价幅度的应价，低于加价幅度的应价无效。
+4．每位竞买人每台车最多能出价三次，请谨慎出价。
+5、当竞买人的上一次出价为当前最高价时，同一竞买人不得再次出价。
+
+四、车辆成交确认
+1、竞价结束后，以买受人“竞价管理”—“竞价成功”中的车辆作为最终成交确认依据，同时捕车信息会以成交短信、客服电话的方式通知买受人成交确认。
+2、买受人必须在以网上成交结束时间起的三个工作日内，于工作时间（9：00-17：00）自行到竞价车辆所在地现场签订成交确认书，逾期未到场签订成交确认书的，捕车信息有权判定买受人违约，按照买受人放弃交易处理。
+3、当交易过程中出现异常情况或不可抗拒因素影响竞价活动正常进行时，捕车信息有权根据实际情况做出暂停、延时等相应处理，直至中止、终止交易。如交易过程中出现任何争议，捕车信息有最终解释权。
+
+五、车辆验收
+1、网上成交结束时间起的三个工作日内，买受人可在工作时间（9：00—17：00）自行到竞价车辆所在地对成交车辆进行勘察检验并交齐款项办理交易手续。
+2、验收时发现车辆车况与公示期车况不符的，可联系捕车信息工作人员进行协调。
+3、经复核车况仲裁内容源于以下非承诺检测项的，捕车信息不予采纳买受人申请：
+①、车辆各总成及配件只表述当前状况，其原、副厂属性为非承诺检测项。
+②、车辆公里数只记录当前仪表显示里程，实际行驶里程为非承诺检测。
+③、车辆排放标准只作为参考使用，非车管所和环保部门备案数据，车商请各自斟酌当地是否接收，所填内容不做承诺保证。
+④、车辆刹车盘、刹车片、地胶、脚垫、消音器、燃油表、水温表为非承诺检测。
+
+六、付款
+1、买受人必须在以网上成交结束时间起的三个工作日内，到交易地址支付全款。
+2、成交价款不包括
+①平台佣金服务费（500.00元）；
+②过户服务费；
+③场地使用费
+④已在竞价网页上公示说明的其他费用。
+
+七、过户
+1、捕车信息所收取款项不包含过户服务费，也暂不提供代办过户服务。买受人需与车源所有者进行联系并办理过户手续。
+
+八、违约责任
+1、若因买受人原因无法完成交易，则视为买受人毁约，扣除已冻结保证金2000元。
+2、若车源出现其他问题导致无法完成交易，则平台对车源提供方采取惩罚措施，并赔偿买受人1000元。
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Pk7-X6-2ak" secondAttribute="bottom" constant="10" id="XZI-FE-lqT"/>
+                    <constraint firstItem="Pk7-X6-2ak" firstAttribute="leading" secondItem="RVL-vW-eFk" secondAttribute="leading" constant="10" id="Z43-Mr-P1E"/>
+                    <constraint firstItem="Pk7-X6-2ak" firstAttribute="top" secondItem="RVL-vW-eFk" secondAttribute="top" constant="5" id="pLO-Hq-QiF"/>
+                    <constraint firstAttribute="trailing" secondItem="Pk7-X6-2ak" secondAttribute="trailing" constant="10" id="wvq-Ae-Zht"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="AQp-MJ-1SH"/>
+            <point key="canvasLocation" x="-1" y="753.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="YHScanCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9w-5s-uvG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="进入选择" translatesAutoresizingMaskIntoConstraints="NO" id="Mcg-XB-637">
+                                <rect key="frame" x="295" y="17.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="ld4-zc-g4r"/>
+                                    <constraint firstAttribute="height" constant="15" id="oYT-SM-2l7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIL-aj-RDN">
+                                <rect key="frame" x="10" y="0.0" width="285" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="PIL-aj-RDN" secondAttribute="bottom" id="8iO-5j-EaF"/>
+                            <constraint firstItem="Mcg-XB-637" firstAttribute="leading" secondItem="PIL-aj-RDN" secondAttribute="trailing" id="CUc-sP-yhk"/>
+                            <constraint firstItem="PIL-aj-RDN" firstAttribute="leading" secondItem="D9w-5s-uvG" secondAttribute="leading" constant="10" id="ZSg-Ud-wPk"/>
+                            <constraint firstItem="Mcg-XB-637" firstAttribute="centerY" secondItem="D9w-5s-uvG" secondAttribute="centerY" id="Zy1-zc-HKw"/>
+                            <constraint firstAttribute="trailing" secondItem="Mcg-XB-637" secondAttribute="trailing" constant="10" id="kgj-KR-Uc4"/>
+                            <constraint firstItem="PIL-aj-RDN" firstAttribute="top" secondItem="D9w-5s-uvG" secondAttribute="top" id="n4A-iG-0C6"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D9w-5s-uvG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Kpz-Ur-kuc"/>
+                    <constraint firstItem="D9w-5s-uvG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hC1-Uq-D1y"/>
+                    <constraint firstAttribute="bottom" secondItem="D9w-5s-uvG" secondAttribute="bottom" constant="10" id="piH-HW-xoy"/>
+                    <constraint firstAttribute="trailing" secondItem="D9w-5s-uvG" secondAttribute="trailing" id="wK0-IH-LUb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.93726116418838501" green="0.93724352121353149" blue="0.93725550174713135" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="vinL" destination="PIL-aj-RDN" id="nwY-SH-N1S"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="进入选择" width="10" height="17"/>
+    </resources>
+</document>

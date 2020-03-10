@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="35" id="KGk-i7-Jjw" customClass="YHAuctionDetailCell0">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交强险到期时间" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXm-iz-KNn">
+                        <rect key="frame" x="10" y="0.0" width="110" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="efC-R7-ZIB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkV-82-QDj">
+                        <rect key="frame" x="130" y="0.0" width="155" height="39"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ufu-9q-LbP">
+                        <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.92323355750000002" green="0.92718596099999995" blue="0.93904317159999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="1cl-8H-02m"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_landmark" translatesAutoresizingMaskIntoConstraints="NO" id="8AJ-gq-YWA">
+                        <rect key="frame" x="285" y="12" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="5HM-5q-hhw"/>
+                            <constraint firstAttribute="width" constant="15" id="zvN-Kw-boZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ufu-9q-LbP" firstAttribute="top" secondItem="IkV-82-QDj" secondAttribute="bottom" id="362-8w-2Q6"/>
+                    <constraint firstItem="RXm-iz-KNn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Eed-Qs-b09"/>
+                    <constraint firstItem="Ufu-9q-LbP" firstAttribute="top" secondItem="RXm-iz-KNn" secondAttribute="bottom" id="HG6-ey-sKd"/>
+                    <constraint firstAttribute="bottom" secondItem="Ufu-9q-LbP" secondAttribute="bottom" id="IGe-aV-dqi"/>
+                    <constraint firstItem="Ufu-9q-LbP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PZM-kz-waw"/>
+                    <constraint firstAttribute="trailing" secondItem="8AJ-gq-YWA" secondAttribute="trailing" constant="20" id="TqW-8X-uV8"/>
+                    <constraint firstItem="8AJ-gq-YWA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="da9-ll-10W"/>
+                    <constraint firstAttribute="trailing" secondItem="Ufu-9q-LbP" secondAttribute="trailing" id="oeH-n7-4TA"/>
+                    <constraint firstItem="8AJ-gq-YWA" firstAttribute="leading" secondItem="IkV-82-QDj" secondAttribute="trailing" id="uDK-ta-uDX"/>
+                    <constraint firstItem="RXm-iz-KNn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="vkh-Vu-Ga8"/>
+                    <constraint firstItem="IkV-82-QDj" firstAttribute="leading" secondItem="RXm-iz-KNn" secondAttribute="trailing" constant="10" id="w7h-59-Wxh"/>
+                    <constraint firstItem="IkV-82-QDj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="y04-uk-ZWI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="defineLabel" destination="RXm-iz-KNn" id="hsz-op-dJO"/>
+                <outlet property="landmarkImageView" destination="8AJ-gq-YWA" id="Uxg-X1-9JZ"/>
+                <outlet property="valueLabel" destination="IkV-82-QDj" id="4G0-Ly-atg"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="47"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_landmark" width="14" height="14"/>
+    </resources>
+</document>

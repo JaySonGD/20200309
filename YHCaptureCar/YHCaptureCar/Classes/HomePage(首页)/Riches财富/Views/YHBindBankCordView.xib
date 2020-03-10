@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vQY-sj-hvM" customClass="YHBindBankCordView">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profitAdd" translatesAutoresizingMaskIntoConstraints="NO" id="Djv-5J-Dtc">
+                    <rect key="frame" x="154" y="30" width="32" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="moY-eS-y6D"/>
+                        <constraint firstAttribute="height" constant="32" id="vcm-Di-hZV"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-iP-PdI">
+                    <rect key="frame" x="10" y="10" width="90" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0Ff-Pp-Qns"/>
+                        <constraint firstAttribute="width" constant="90" id="pNd-dd-0gU"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h69-UA-Ilm">
+                    <rect key="frame" x="299" y="93" width="31" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="4Qo-qf-WYg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="绑定银行卡轻松提现" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RW-Ny-JQx">
+                    <rect key="frame" x="92" y="71" width="156" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="z2U-zw-A6z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="srR-Ta-bBs" firstAttribute="bottom" secondItem="h69-UA-Ilm" secondAttribute="bottom" constant="15" id="6w7-Mp-N4s"/>
+                <constraint firstItem="Djv-5J-Dtc" firstAttribute="top" secondItem="srR-Ta-bBs" secondAttribute="top" constant="30" id="9Jd-bB-GE3"/>
+                <constraint firstItem="srR-Ta-bBs" firstAttribute="trailing" secondItem="h69-UA-Ilm" secondAttribute="trailing" constant="10" id="ETi-Op-N5Y"/>
+                <constraint firstItem="9RW-Ny-JQx" firstAttribute="top" secondItem="Djv-5J-Dtc" secondAttribute="bottom" constant="9" id="I8D-Ka-3zg"/>
+                <constraint firstItem="cmx-iP-PdI" firstAttribute="leading" secondItem="srR-Ta-bBs" secondAttribute="leading" constant="10" id="gUf-HA-udf"/>
+                <constraint firstItem="Djv-5J-Dtc" firstAttribute="centerX" secondItem="vQY-sj-hvM" secondAttribute="centerX" id="kVZ-nt-nVS"/>
+                <constraint firstItem="9RW-Ny-JQx" firstAttribute="centerX" secondItem="vQY-sj-hvM" secondAttribute="centerX" id="oy5-f6-7px"/>
+                <constraint firstItem="cmx-iP-PdI" firstAttribute="top" secondItem="srR-Ta-bBs" secondAttribute="top" constant="10" id="v7q-Xd-BW6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="srR-Ta-bBs"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="bankCardAddBtn" destination="Djv-5J-Dtc" id="lBq-2m-QDB"/>
+                <outlet property="bankCardBindPremptL" destination="9RW-Ny-JQx" id="SkV-lP-ce2"/>
+                <outlet property="bankCardNumberL" destination="h69-UA-Ilm" id="5YQ-kB-zQ5"/>
+                <outlet property="bankLogoImgV" destination="cmx-iP-PdI" id="ZWf-6m-EbF"/>
+            </connections>
+            <point key="canvasLocation" x="-391" y="-123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="profitAdd" width="32" height="32"/>
+    </resources>
+</document>

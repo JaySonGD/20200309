@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--关于捕车-->
+        <scene sceneID="mRT-wm-tNQ">
+            <objects>
+                <viewController storyboardIdentifier="YHAppIntroduceController" title="关于捕车" id="ma1-c7-Wc0" customClass="YHAppIntroduceController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gZS-Gz-vYm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vil-Dg-4zH">
+                                <rect key="frame" x="157" y="289" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="STw-NP-yMc">
+                                <rect key="frame" x="10" y="54" width="355" height="613"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">       捕车是一家二手车商（平台）的服务商，以AI技术赋能二手车产业链的方式，为二手车商提供二手车检测、帮买、帮卖以及售后等综合服务，让更多安全优质的二手车和专业售后服务走进千家万户，为人类出行安全保驾护航。
+</string>
+                                <color key="textColor" red="0.48627793788909912" green="0.48626834154129028" blue="0.4862748384475708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ma1-c7-Wc0" id="LIS-pq-eR0"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vjA-JI-H3E" firstAttribute="bottom" secondItem="STw-NP-yMc" secondAttribute="bottom" id="5Jf-Hy-Bn5"/>
+                            <constraint firstItem="vjA-JI-H3E" firstAttribute="trailing" secondItem="STw-NP-yMc" secondAttribute="trailing" constant="10" id="bvf-8E-LiU"/>
+                            <constraint firstItem="STw-NP-yMc" firstAttribute="leading" secondItem="vjA-JI-H3E" secondAttribute="leading" constant="10" id="gG3-Rr-SCk"/>
+                            <constraint firstItem="STw-NP-yMc" firstAttribute="top" secondItem="vjA-JI-H3E" secondAttribute="top" constant="10" id="gPk-PH-VcS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vjA-JI-H3E"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="textView" destination="STw-NP-yMc" id="f8i-2o-4wR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVu-CE-dxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9847.2000000000007" y="-978.26086956521749"/>
+        </scene>
+    </scenes>
+</document>
