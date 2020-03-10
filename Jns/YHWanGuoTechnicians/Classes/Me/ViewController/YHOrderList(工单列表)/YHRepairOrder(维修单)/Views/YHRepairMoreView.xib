@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JiK-Mx-mSP" customClass="YHRepairMoreView">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="587"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAd-XC-fia">
+                    <rect key="frame" x="320" y="86" width="100" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="3y4-zA-w2z"/>
+                        <constraint firstAttribute="height" constant="44" id="XoQ-WF-dDb"/>
+                    </constraints>
+                    <state key="normal" title="重命名方案">
+                        <color key="titleColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7s-KM-rPk">
+                    <rect key="frame" x="320" y="176" width="100" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="WUl-3Z-fZk"/>
+                        <constraint firstAttribute="height" constant="44" id="vnu-sZ-yKm"/>
+                    </constraints>
+                    <state key="normal" title="删除方案">
+                        <color key="titleColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTR-U9-KH5">
+                    <rect key="frame" x="320" y="131" width="100" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="3YM-h0-9z5"/>
+                        <constraint firstAttribute="height" constant="44" id="ReG-EW-9hy"/>
+                    </constraints>
+                    <state key="normal" title="复制方案">
+                        <color key="titleColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="0.2791095890410959" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jTR-U9-KH5" firstAttribute="top" secondItem="TAd-XC-fia" secondAttribute="bottom" constant="0.69999999999999996" id="1HH-gq-848"/>
+                <constraint firstItem="TAd-XC-fia" firstAttribute="top" secondItem="JiK-Mx-mSP" secondAttribute="top" constant="86" id="3qo-hY-Lze"/>
+                <constraint firstAttribute="trailing" secondItem="TAd-XC-fia" secondAttribute="trailing" constant="20" id="Pwe-gx-Qa4"/>
+                <constraint firstAttribute="trailing" secondItem="jTR-U9-KH5" secondAttribute="trailing" constant="20" id="ekP-YA-u6g"/>
+                <constraint firstAttribute="trailing" secondItem="e7s-KM-rPk" secondAttribute="trailing" constant="20" id="gOa-6k-VK6"/>
+                <constraint firstItem="e7s-KM-rPk" firstAttribute="top" secondItem="jTR-U9-KH5" secondAttribute="bottom" constant="0.69999999999999996" id="lw9-kV-7PX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="caseButton" destination="jTR-U9-KH5" id="0bB-jg-0Au"/>
+                <outlet property="reNameBtn" destination="TAd-XC-fia" id="93B-UW-g9L"/>
+                <outlet property="reNameHeight" destination="XoQ-WF-dDb" id="zPe-Fp-AtZ"/>
+                <outlet property="removeBtn" destination="e7s-KM-rPk" id="7ve-bO-Wxf"/>
+            </connections>
+            <point key="canvasLocation" x="-713" y="-99"/>
+        </view>
+    </objects>
+</document>

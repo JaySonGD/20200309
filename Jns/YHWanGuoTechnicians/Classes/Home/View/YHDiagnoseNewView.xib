@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="202" id="KGk-i7-Jjw" customClass="YHDiagnoseNewView">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="202"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9G-kZ-MDa">
+                        <rect key="frame" x="8" y="0.0" width="316" height="202"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5uP-iY-EuZ">
+                                <rect key="frame" x="8" y="0.0" width="300" height="202"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5uP-iY-EuZ" secondAttribute="trailing" constant="8" id="5IE-sO-XJI"/>
+                            <constraint firstAttribute="bottom" secondItem="5uP-iY-EuZ" secondAttribute="bottom" id="dL9-3i-FtA"/>
+                            <constraint firstItem="5uP-iY-EuZ" firstAttribute="leading" secondItem="e9G-kZ-MDa" secondAttribute="leading" constant="8" id="hzH-9r-M3n"/>
+                            <constraint firstItem="5uP-iY-EuZ" firstAttribute="top" secondItem="e9G-kZ-MDa" secondAttribute="top" id="jYi-rO-Cxe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="e9G-kZ-MDa" secondAttribute="bottom" id="1Ld-Lq-a8b"/>
+                    <constraint firstItem="e9G-kZ-MDa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="AXH-rX-Nk6"/>
+                    <constraint firstItem="e9G-kZ-MDa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Vgq-T0-9Xb"/>
+                    <constraint firstAttribute="trailing" secondItem="e9G-kZ-MDa" secondAttribute="trailing" constant="8" id="g2o-L2-e8w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="diagnoseTextView" destination="5uP-iY-EuZ" id="OQy-5s-PHq"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="79.017857142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

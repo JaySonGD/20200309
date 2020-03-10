@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="300" id="NZ7-o2-hzZ" customClass="YHNoDataCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NZ7-o2-hzZ" id="05g-qI-OCT">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6Q-CI-ym8">
+                        <rect key="frame" x="60" y="64" width="200" height="170"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qf7-TO-wKg">
+                                <rect key="frame" x="60" y="25" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="58A-w6-bdh"/>
+                                    <constraint firstAttribute="width" constant="80" id="Gds-AF-IDt"/>
+                                </constraints>
+                                <state key="normal" image="icon_NoData2"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无工单" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4M-1e-krD">
+                                <rect key="frame" x="0.0" y="120" width="200" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="h4M-1e-krD" secondAttribute="trailing" id="C7Y-9O-C6y"/>
+                            <constraint firstAttribute="height" constant="170" id="DNj-cK-7cG"/>
+                            <constraint firstAttribute="width" constant="200" id="LYs-qX-7uh"/>
+                            <constraint firstItem="h4M-1e-krD" firstAttribute="top" secondItem="qf7-TO-wKg" secondAttribute="bottom" constant="15" id="RV6-Ib-LWn"/>
+                            <constraint firstItem="qf7-TO-wKg" firstAttribute="top" secondItem="p6Q-CI-ym8" secondAttribute="top" constant="25" id="e89-JQ-rs3"/>
+                            <constraint firstItem="qf7-TO-wKg" firstAttribute="centerX" secondItem="p6Q-CI-ym8" secondAttribute="centerX" id="eke-zk-cgv"/>
+                            <constraint firstItem="h4M-1e-krD" firstAttribute="leading" secondItem="p6Q-CI-ym8" secondAttribute="leading" id="g1q-Yk-a10"/>
+                            <constraint firstAttribute="bottom" secondItem="h4M-1e-krD" secondAttribute="bottom" constant="25" id="waB-0j-8w6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="p6Q-CI-ym8" firstAttribute="centerY" secondItem="05g-qI-OCT" secondAttribute="centerY" id="QbE-YA-G62"/>
+                    <constraint firstItem="p6Q-CI-ym8" firstAttribute="centerX" secondItem="05g-qI-OCT" secondAttribute="centerX" id="jZ5-eL-ahg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.94549566510000005" green="0.94454884530000005" blue="0.97255367039999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="remindI" destination="qf7-TO-wKg" id="gYB-Sg-6SK"/>
+                <outlet property="remindL" destination="h4M-1e-krD" id="iUp-Xq-Rb9"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="180"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_NoData2" width="101" height="101"/>
+    </resources>
+</document>

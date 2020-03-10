@@ -1,0 +1,4667 @@
+[
+    {
+        "id": "18",
+        "code": "",
+        "name": "车身",
+        "saveType": "back",
+        "projectList": [
+            {
+                "id": "1187",
+                "code": "",
+                "projectName": "车内座椅",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "637",
+                        "code": "bodywk_chair_leber",
+                        "projectName": "左前座椅",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "639",
+                        "code": "bodywk_chair_riber",
+                        "projectName": "右前座椅",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "638",
+                        "code": "bodywk_chair_leter",
+                        "projectName": "左后座椅",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "640",
+                        "code": "bodywk_chair_riter",
+                        "projectName": "右后座椅",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1188",
+                "code": "",
+                "projectName": "车内内饰",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "641",
+                        "code": "bodywk_trim",
+                        "projectName": "车内内饰",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1189",
+                "code": "",
+                "projectName": "车外表面",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "644",
+                        "code": "bodywk_surfa_riboy",
+                        "projectName": "右前翼子板",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "642",
+                        "code": "bodywk_surfa_leboy",
+                        "projectName": "左前翼子板",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "645",
+                        "code": "bodywk_surfa_ritoy",
+                        "projectName": "右后翼子板",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "643",
+                        "code": "bodywk_surfa_letoy",
+                        "projectName": "左后翼子板",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "647",
+                        "code": "bodywk_surfa_ter",
+                        "projectName": "后保险杠",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "646",
+                        "code": "bodywk_surfa_ber",
+                        "projectName": "前保险杠",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "649",
+                        "code": "bodywk_surfa_riber",
+                        "projectName": "右前门",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "648",
+                        "code": "bodywk_surfa_leber",
+                        "projectName": "左前门",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "651",
+                        "code": "bodywk_surfa_riter",
+                        "projectName": "右后门",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "650",
+                        "code": "bodywk_surfa_leter",
+                        "projectName": "左后门",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "653",
+                        "code": "bodywk_surfa_box",
+                        "projectName": "后尾箱盖",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "652",
+                        "code": "bodywk_surfa_enge",
+                        "projectName": "发动机舱盖",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1190",
+                "code": "",
+                "projectName": "玻璃升降",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "656",
+                        "code": "bodywk_glass_rf",
+                        "projectName": "右前玻璃升降",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "654",
+                        "code": "bodywk_glass_lf",
+                        "projectName": "左前玻璃升降",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "657",
+                        "code": "bodywk_glass_rb",
+                        "projectName": "右后玻璃升降",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "655",
+                        "code": "bodywk_glass_lb",
+                        "projectName": "左后玻璃升降",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1191",
+                "code": "",
+                "projectName": "天窗",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "658",
+                        "code": "bodywk_skylight",
+                        "projectName": "天窗",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1192",
+                "code": "",
+                "projectName": "门锁",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "659",
+                        "code": "bodywk_lock_lf",
+                        "projectName": "左前门锁",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "661",
+                        "code": "bodywk_lock_rf",
+                        "projectName": "右前门锁",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "660",
+                        "code": "bodywk_lock_lb",
+                        "projectName": "左后门锁",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "662",
+                        "code": "bodywk_lock_rb",
+                        "projectName": "右后门锁",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1193",
+                "code": "",
+                "projectName": "发动机舱锁机",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "663",
+                        "code": "bodywk_engineLock",
+                        "projectName": "发动机舱锁机",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1194",
+                "code": "",
+                "projectName": "后尾箱锁机",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "664",
+                        "code": "bodywk_boxLock",
+                        "projectName": "后尾箱锁机",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1195",
+                "code": "",
+                "projectName": "雨刮",
+                "unit": "",
+                "sysClassId": "18",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "636",
+                        "code": "bodywk_sprinkler",
+                        "projectName": "雨刮喷水",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "不喷水",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1183",
+                        "code": "bodywk_frontRainScraper",
+                        "projectName": "前雨刮片",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "刮不干净",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1184",
+                        "code": "bodywk_backRainScraper",
+                        "projectName": "后雨刮片",
+                        "unit": "",
+                        "sysClassId": "18",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异常",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "刮不干净",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "code": "",
+        "name": "灯光",
+        "saveType": "back",
+        "projectList": [
+            {
+                "id": "665",
+                "code": "",
+                "projectName": "左前",
+                "unit": "",
+                "sysClassId": "19",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "670",
+                        "code": "light_near_lf",
+                        "projectName": "近光灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "671",
+                        "code": "light_far_lf",
+                        "projectName": "远光灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "672",
+                        "code": "light_small_lf",
+                        "projectName": "小灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "673",
+                        "code": "light_turning_lf",
+                        "projectName": "转向灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "674",
+                        "code": "light_fogs_lf",
+                        "projectName": "雾灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "666",
+                "code": "",
+                "projectName": "右前",
+                "unit": "",
+                "sysClassId": "19",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "675",
+                        "code": "light_near_rf",
+                        "projectName": "近光灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "676",
+                        "code": "light_far_rf",
+                        "projectName": "远光灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "677",
+                        "code": "light_small_rf",
+                        "projectName": "小灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "678",
+                        "code": "light_turning_rf",
+                        "projectName": "转向灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "679",
+                        "code": "light_fogs_rf",
+                        "projectName": "雾灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "667",
+                "code": "",
+                "projectName": "左后",
+                "unit": "",
+                "sysClassId": "19",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "680",
+                        "code": "light_small_lb",
+                        "projectName": "小灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "681",
+                        "code": "light_brake_lb",
+                        "projectName": "刹车灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "682",
+                        "code": "light_fogs_lb",
+                        "projectName": "雾灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "683",
+                        "code": "light_turning_lb",
+                        "projectName": "转向灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "684",
+                        "code": "light_reversing_lb",
+                        "projectName": "倒车灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "668",
+                "code": "",
+                "projectName": "右后",
+                "unit": "",
+                "sysClassId": "19",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "685",
+                        "code": "light_small_rb",
+                        "projectName": "小灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "686",
+                        "code": "light_brake_rb",
+                        "projectName": "刹车灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "687",
+                        "code": "light_fogs_rb",
+                        "projectName": "雾灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "688",
+                        "code": "light_turning_rb",
+                        "projectName": "转向灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "689",
+                        "code": "light_reversing_rb",
+                        "projectName": "倒车灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "669",
+                "code": "",
+                "projectName": "高位",
+                "unit": "",
+                "sysClassId": "19",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "690",
+                        "code": "light_brake_h",
+                        "projectName": "刹车灯",
+                        "unit": "",
+                        "sysClassId": "19",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "待调整",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "code": "",
+        "name": "发动机舱",
+        "saveType": "back",
+        "projectList": [
+            {
+                "id": "1196",
+                "code": "",
+                "projectName": "供电系统",
+                "unit": "",
+                "sysClassId": "20",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "691",
+                        "code": "elect_batteryVoltage",
+                        "projectName": "蓄电池电压",
+                        "unit": "V",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 18
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "692",
+                        "code": "elect_generatingVoltage",
+                        "projectName": "发电电压",
+                        "unit": "V",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 18
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "693",
+                        "code": "elect_batteryPerf",
+                        "projectName": "蓄电池寿命",
+                        "unit": "%",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1197",
+                "code": "",
+                "projectName": "电控系统",
+                "unit": "",
+                "sysClassId": "20",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "694",
+                        "code": "elect_engine_level",
+                        "projectName": "发动机电控",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偶发故障",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "静态故障",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "亮故障灯",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "695",
+                        "code": "elect_engine",
+                        "projectName": "发动机电控故障码",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "gatherInputAdd",
+                        "intervalRange": [
+                            "输入故障码"
+                        ],
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "696",
+                        "code": "elect_driver_level",
+                        "projectName": "传动系统电控",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偶发故障",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "静态故障",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "亮故障灯",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "697",
+                        "code": "elect_driver",
+                        "projectName": "传动系统电控故障码",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "gatherInputAdd",
+                        "intervalRange": [
+                            "输入故障码"
+                        ],
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "698",
+                        "code": "elect_brake_level",
+                        "projectName": "制动系统电控",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偶发故障",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "静态故障",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "亮故障灯",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "699",
+                        "code": "elect_brake",
+                        "projectName": "制动系统电控故障码",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "gatherInputAdd",
+                        "intervalRange": [
+                            "输入故障码"
+                        ],
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "700",
+                        "code": "elect_chassis_level",
+                        "projectName": "底盘系统电控",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偶发故障",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "静态故障",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "亮故障灯",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "701",
+                        "code": "elect_chassis",
+                        "projectName": "底盘系统电控故障码",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "gatherInputAdd",
+                        "intervalRange": [
+                            "输入故障码"
+                        ],
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "702",
+                        "code": "elect_bodywork_level",
+                        "projectName": "车身系统电控",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偶发故障",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "静态故障",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "亮故障灯",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "703",
+                        "code": "elect_bodywork",
+                        "projectName": "车身系统电控故障码",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "gatherInputAdd",
+                        "intervalRange": [
+                            "输入故障码"
+                        ],
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1198",
+                "code": "",
+                "projectName": "制动系统",
+                "unit": "",
+                "sysClassId": "20",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "704",
+                        "code": "brake_brid",
+                        "projectName": "刹车油含水量",
+                        "unit": "%",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1199",
+                "code": "",
+                "projectName": "传动系统",
+                "unit": "",
+                "sysClassId": "20",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "705",
+                        "code": "driver_oil",
+                        "projectName": "波箱油",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微变质",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度变质",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重变质",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "706",
+                        "code": "driver_gear",
+                        "projectName": "波箱提速性能",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微下降",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度下降",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重下降",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "1200",
+                "code": "",
+                "projectName": "发动机系统",
+                "unit": "",
+                "sysClassId": "20",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "707",
+                        "code": "engine_spark",
+                        "projectName": "火花塞",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "电极烧蚀",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "漏气/漏电",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "708",
+                        "code": "engine_highLine",
+                        "projectName": "高压线",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "橡胶硬化",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "开裂漏电",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "709",
+                        "code": "engine_cola",
+                        "projectName": "冷却液冰点（零下）",
+                        "unit": "℃",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 60
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "710",
+                        "code": "engine_colaPosition",
+                        "projectName": "冷却液液位",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "偏少、须补充",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "低于最下限",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "711",
+                        "code": "engine_intaType",
+                        "projectName": "进气形式",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "自然吸气",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "涡轮增压",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "机械+涡轮增压",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "712",
+                        "code": "engine_airFilter",
+                        "projectName": "空气滤清器",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有轻微积尘",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重脏污",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "713",
+                        "code": "engine_inta",
+                        "projectName": "进气系统",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微积碳",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度积碳",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重积碳",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "714",
+                        "code": "engine_exh",
+                        "projectName": "排气系统",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微堵塞",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度堵塞",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重堵塞",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "715",
+                        "code": "engine_fuel",
+                        "projectName": "燃油系统",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微不畅",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度不畅",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重不畅",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "716",
+                        "code": "engine_oil",
+                        "projectName": "润滑系统",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻度烧机油",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度烧机油",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重烧机油",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "717",
+                        "code": "engine_compBelt",
+                        "projectName": "压缩机皮带",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "打滑、异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "718",
+                        "code": "engine_altBelt",
+                        "projectName": "发电机皮带",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "打滑、异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "719",
+                        "code": "engine_runState",
+                        "projectName": "发动机运转状况",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微抖动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重抖动",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "动力下降",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "720",
+                        "code": "chas_steOil",
+                        "projectName": "方向机油",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微变质",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度变质",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重变质",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "721",
+                        "code": "cold_filter",
+                        "projectName": "空调滤清器",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有轻微积尘",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重脏污",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "722",
+                        "code": "cold_environmentT",
+                        "projectName": "环境温度",
+                        "unit": "℃",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": -60,
+                            "max": 80
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "723",
+                        "code": "cold_highPressure",
+                        "projectName": "高压压力",
+                        "unit": "bar",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 30
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "724",
+                        "code": "cold_lowPressure",
+                        "projectName": "低压压力",
+                        "unit": "bar",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": -30,
+                            "max": 15
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "725",
+                        "code": "cold_temperature",
+                        "projectName": "出风口温度",
+                        "unit": "℃",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": -15,
+                            "max": 40
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "726",
+                        "code": "cold_speed",
+                        "projectName": "出风口风速",
+                        "unit": "m/s",
+                        "sysClassId": "20",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 18
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "727",
+                        "code": "cold_evapor",
+                        "projectName": "蒸发箱表面",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微脏堵",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度脏堵",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重脏堵",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "728",
+                        "code": "cold_cdser",
+                        "projectName": "冷凝器表面",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微脏堵",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度脏堵",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重脏堵",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "729",
+                        "code": "cold_cpsor",
+                        "projectName": "压缩机表面",
+                        "unit": "",
+                        "sysClassId": "20",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "泄露",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "异响",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "泄露并异响",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "code": "",
+        "name": "四轮",
+        "saveType": "back",
+        "projectList": [
+            {
+                "id": "1201",
+                "code": "",
+                "projectName": "气压",
+                "unit": "",
+                "sysClassId": "21",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "1202",
+                        "code": "chas_tirePressure_lf",
+                        "projectName": "左前轮胎气压",
+                        "unit": "bar",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0.01,
+                            "max": 9.99
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1203",
+                        "code": "chas_tirePressure_rf",
+                        "projectName": "右前轮胎气压",
+                        "unit": "bar",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0.01,
+                            "max": 9.99
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1204",
+                        "code": "chas_tirePressure_lb",
+                        "projectName": "左后轮胎气压",
+                        "unit": "bar",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0.01,
+                            "max": 9.99
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1205",
+                        "code": "chas_tirePressure_rb",
+                        "projectName": "右后轮胎气压",
+                        "unit": "bar",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0.01,
+                            "max": 9.99
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1206",
+                        "code": "chas_tirePressure_recover",
+                        "projectName": "有无恢复轮胎气压正常值",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "730",
+                "code": "",
+                "projectName": "左前",
+                "unit": "",
+                "sysClassId": "21",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "1207",
+                        "code": "chas_tirePuncture_lf",
+                        "projectName": "轮胎有无扎钉",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1208",
+                        "code": "chas_tireDamaged_lf",
+                        "projectName": "轮胎有无异常磨损",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "734",
+                        "code": "chas_tire_plf",
+                        "projectName": "轮胎花纹深度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {},
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "735",
+                        "code": "chas_tire_tlf",
+                        "projectName": "轮胎生产时间",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 100,
+                            "max": 9999,
+                            "placeholder": "如输入数字0218 (02代表周，18代表年)"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "745",
+                        "code": "brake_frie_lf",
+                        "projectName": "刹车片厚度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 20,
+                            "placeholder": "输入直接测量值（含背板厚度）"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "746",
+                        "code": "brake_bbd_lf",
+                        "projectName": "刹车碟磨损量",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "划痕",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "沟槽",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "划痕+沟槽",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "747",
+                        "code": "brake_hose_lf",
+                        "projectName": "刹车软管",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "老化、开裂",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "736",
+                        "code": "chas_arms_lf",
+                        "projectName": "摆臂减震胶",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "破损",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "737",
+                        "code": "chas_ball_lf",
+                        "projectName": "摆臂球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "738",
+                        "code": "chas_balanceBall_lf",
+                        "projectName": "平衡杆球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "739",
+                        "code": "chas_ostrBall_lf",
+                        "projectName": "方向机外球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "740",
+                        "code": "chas_istrBall_lf",
+                        "projectName": "方向机内球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "741",
+                        "code": "chas_dustCovero_lf",
+                        "projectName": "外半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "742",
+                        "code": "chas_dustCoveri_lf",
+                        "projectName": "内半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "744",
+                        "code": "chas_absorber_lf",
+                        "projectName": "减震器",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "漏油/漏气",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "743",
+                        "code": "chas_sound_lf",
+                        "projectName": "轮轴承",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有间隙",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "转动有异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "731",
+                "code": "",
+                "projectName": "右前",
+                "unit": "",
+                "sysClassId": "21",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "1209",
+                        "code": "chas_tirePuncture_rf",
+                        "projectName": "轮胎有无扎钉",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1210",
+                        "code": "chas_tireDamaged_rf",
+                        "projectName": "轮胎有无异常磨损",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "748",
+                        "code": "chas_tire_prf",
+                        "projectName": "轮胎花纹深度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {},
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "749",
+                        "code": "chas_tire_trf",
+                        "projectName": "轮胎生产时间",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 100,
+                            "max": 9999,
+                            "placeholder": "如输入数字0218 (02代表周，18代表年)"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "759",
+                        "code": "brake_frie_rf",
+                        "projectName": "刹车片厚度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 20,
+                            "placeholder": "输入直接测量值（含背板厚度）"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "760",
+                        "code": "brake_bbd_rf",
+                        "projectName": "刹车碟磨损量",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "划痕",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "沟槽",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "划痕+沟槽",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "761",
+                        "code": "brake_hose_rf",
+                        "projectName": "刹车软管",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "老化、开裂",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "750",
+                        "code": "chas_arms_rf",
+                        "projectName": "摆臂减震胶",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "破损",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "751",
+                        "code": "chas_ball_rf",
+                        "projectName": "摆臂球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "752",
+                        "code": "chas_balanceBall_rf",
+                        "projectName": "平衡杆球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "753",
+                        "code": "chas_ostrBall_rf",
+                        "projectName": "方向机外球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "754",
+                        "code": "chas_istrBall_rf",
+                        "projectName": "方向机内球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "755",
+                        "code": "chas_dustCovero_rf",
+                        "projectName": "外半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "756",
+                        "code": "chas_dustCoveri_rf",
+                        "projectName": "内半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "758",
+                        "code": "chas_absorber_rf",
+                        "projectName": "减震器",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "漏油/漏气",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "757",
+                        "code": "chas_sound_rf",
+                        "projectName": "轮轴承",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有间隙",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "转动有异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "732",
+                "code": "",
+                "projectName": "左后",
+                "unit": "",
+                "sysClassId": "21",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "1211",
+                        "code": "chas_tirePuncture_lb",
+                        "projectName": "轮胎有无扎钉",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1212",
+                        "code": "chas_tireDamaged_lb",
+                        "projectName": "轮胎有无异常磨损",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "762",
+                        "code": "chas_tire_plb",
+                        "projectName": "轮胎花纹深度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {},
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "763",
+                        "code": "chas_tire_tlb",
+                        "projectName": "轮胎生产时间",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 100,
+                            "max": 9999,
+                            "placeholder": "如输入数字0218 (02代表周，18代表年)"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "771",
+                        "code": "brake_frie_lb",
+                        "projectName": "刹车片厚度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 20,
+                            "placeholder": "输入直接测量值（含背板厚度）"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "772",
+                        "code": "brake_bbd_lb",
+                        "projectName": "刹车碟磨损量",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "划痕",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "沟槽",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "划痕+沟槽",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "773",
+                        "code": "brake_hose_lb",
+                        "projectName": "刹车软管",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "老化、开裂",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "764",
+                        "code": "chas_arms_lb",
+                        "projectName": "摆臂减震胶",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "破损",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "765",
+                        "code": "chas_ball_lb",
+                        "projectName": "摆臂球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "766",
+                        "code": "chas_balanceBall_lb",
+                        "projectName": "平衡杆球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "767",
+                        "code": "chas_dustCovero_lb",
+                        "projectName": "外半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "768",
+                        "code": "chas_dustCoveri_lb",
+                        "projectName": "内半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "770",
+                        "code": "chas_absorber_lb",
+                        "projectName": "减震器",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "漏油/漏气",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "769",
+                        "code": "chas_sound_lb",
+                        "projectName": "轮轴承",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有间隙",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "转动有异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            },
+            {
+                "id": "733",
+                "code": "",
+                "projectName": "右后",
+                "unit": "",
+                "sysClassId": "21",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "1213",
+                        "code": "chas_tirePuncture_rb",
+                        "projectName": "轮胎有无扎钉",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1214",
+                        "code": "chas_tireDamaged_rb",
+                        "projectName": "轮胎有无异常磨损",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "有",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "无",
+                                    "value": "1"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "774",
+                        "code": "chas_tire_prb",
+                        "projectName": "轮胎花纹深度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {},
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "775",
+                        "code": "chas_tire_trb",
+                        "projectName": "轮胎生产时间",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 100,
+                            "max": 9999,
+                            "placeholder": "如输入数字0218 (02代表周，18代表年)"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "783",
+                        "code": "brake_frie_rb",
+                        "projectName": "刹车片厚度",
+                        "unit": "mm",
+                        "sysClassId": "21",
+                        "dataType": "number",
+                        "intervalType": "text",
+                        "intervalRange": {
+                            "min": 0,
+                            "max": 20,
+                            "placeholder": "输入直接测量值（含背板厚度）"
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "784",
+                        "code": "brake_bbd_rb",
+                        "projectName": "刹车碟磨损量",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "划痕",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "沟槽",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "划痕+沟槽",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "785",
+                        "code": "brake_hose_rb",
+                        "projectName": "刹车软管",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "老化、开裂",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "776",
+                        "code": "chas_arms_rb",
+                        "projectName": "摆臂减震胶",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "开裂",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "破损",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "777",
+                        "code": "chas_ball_rb",
+                        "projectName": "摆臂球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "778",
+                        "code": "chas_balanceBall_rb",
+                        "projectName": "平衡杆球头",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微松动",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "严重松旷",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "779",
+                        "code": "chas_dustCovero_rb",
+                        "projectName": "外半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "780",
+                        "code": "chas_dustCoveri_rb",
+                        "projectName": "内半轴防尘套",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "破裂/漏油",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "782",
+                        "code": "chas_absorber_rb",
+                        "projectName": "减震器",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "漏油/漏气",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "781",
+                        "code": "chas_sound_rb",
+                        "projectName": "轮轴承",
+                        "unit": "",
+                        "sysClassId": "21",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "有间隙",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "转动有异响",
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "code": "",
+        "name": "底盘",
+        "saveType": "back",
+        "projectList": [
+            {
+                "id": "1215",
+                "code": "",
+                "projectName": "底盘",
+                "unit": "",
+                "sysClassId": "22",
+                "dataType": "",
+                "intervalType": "",
+                "intervalRange": {},
+                "projectVal": "",
+                "projectImgList": [],
+                "projectThumbImgList": [],
+                "projectRelativeImgList": [],
+                "projectList": [
+                    {
+                        "id": "786",
+                        "code": "chas_engineLeak",
+                        "projectName": "发动机有无漏油",
+                        "unit": "",
+                        "sysClassId": "22",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "泄漏",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "787",
+                        "code": "chas_steerLeak",
+                        "projectName": "方向机有无漏油",
+                        "unit": "",
+                        "sysClassId": "22",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "泄漏",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "788",
+                        "code": "chas_gearLeak",
+                        "projectName": "波箱有无漏油",
+                        "unit": "",
+                        "sysClassId": "22",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "泄漏",
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "789",
+                        "code": "chas_turnLeak",
+                        "projectName": "转向助力泵",
+                        "unit": "",
+                        "sysClassId": "22",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "异响",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "漏油",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "异响+漏油",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    },
+                    {
+                        "id": "1156",
+                        "code": "chas_turnOil",
+                        "projectName": "转向助力油",
+                        "unit": "",
+                        "sysClassId": "22",
+                        "dataType": "string",
+                        "intervalType": "radio",
+                        "intervalRange": {
+                            "list": [
+                                {
+                                    "name": "正常",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "轻微变质",
+                                    "value": "0"
+                                },
+                                {
+                                    "name": "中度变质",
+                                    "value": "2"
+                                },
+                                {
+                                    "name": "严重变质",
+                                    "value": "3"
+                                }
+                            ]
+                        },
+                        "projectVal": "",
+                        "projectImgList": [],
+                        "projectThumbImgList": [],
+                        "projectRelativeImgList": [],
+                        "projectList": []
+                    }
+                ]
+            }
+        ]
+    }
+]

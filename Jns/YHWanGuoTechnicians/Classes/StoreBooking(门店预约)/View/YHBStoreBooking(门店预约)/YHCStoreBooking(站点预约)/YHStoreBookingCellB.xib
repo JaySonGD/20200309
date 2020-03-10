@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="278" id="eiy-os-Msp" customClass="YHStoreBookingCellB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="278"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eiy-os-Msp" id="5Xg-SO-8GB">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="277.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-HQ-KOq">
+                        <rect key="frame" x="10" y="15" width="300" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="车型车系" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6J-on-nvB">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QTD-Gg-s5S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.40392156862745099" green="0.40392156862745099" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宝马3系  2017款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhC-lp-8E0">
+                                <rect key="frame" x="0.0" y="26" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Fr3-yg-x9f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.792156862745098" green="0.792156862745098" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="b6J-on-nvB" firstAttribute="top" secondItem="ebo-HQ-KOq" secondAttribute="top" id="IqL-Wh-kES"/>
+                            <constraint firstAttribute="trailing" secondItem="RhC-lp-8E0" secondAttribute="trailing" id="JMm-Ah-u6v"/>
+                            <constraint firstItem="RhC-lp-8E0" firstAttribute="leading" secondItem="ebo-HQ-KOq" secondAttribute="leading" id="Jq7-HB-P7t"/>
+                            <constraint firstAttribute="trailing" secondItem="b6J-on-nvB" secondAttribute="trailing" id="c5D-ni-tfN"/>
+                            <constraint firstAttribute="height" constant="47" id="exH-rW-JqX"/>
+                            <constraint firstItem="RhC-lp-8E0" firstAttribute="top" secondItem="b6J-on-nvB" secondAttribute="bottom" constant="5" id="q69-Qb-C9d"/>
+                            <constraint firstItem="b6J-on-nvB" firstAttribute="leading" secondItem="ebo-HQ-KOq" secondAttribute="leading" id="xNb-IP-Lmq"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKw-nt-CcD">
+                        <rect key="frame" x="10" y="82" width="300" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="车牌号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFZ-e0-3vH">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Mni-Jt-g8W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.4039215686" green="0.4039215686" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宝马3系  2017款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCs-ba-2O0">
+                                <rect key="frame" x="0.0" y="26" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7oy-Cc-ngU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="YCs-ba-2O0" firstAttribute="top" secondItem="eFZ-e0-3vH" secondAttribute="bottom" constant="5" id="4o3-Ff-UfS"/>
+                            <constraint firstItem="YCs-ba-2O0" firstAttribute="leading" secondItem="pKw-nt-CcD" secondAttribute="leading" id="4pe-px-Nh1"/>
+                            <constraint firstAttribute="trailing" secondItem="eFZ-e0-3vH" secondAttribute="trailing" id="8D7-q0-T4v"/>
+                            <constraint firstAttribute="trailing" secondItem="YCs-ba-2O0" secondAttribute="trailing" id="JHF-Qn-Mvx"/>
+                            <constraint firstItem="eFZ-e0-3vH" firstAttribute="leading" secondItem="pKw-nt-CcD" secondAttribute="leading" id="Lfg-gA-axv"/>
+                            <constraint firstItem="eFZ-e0-3vH" firstAttribute="top" secondItem="pKw-nt-CcD" secondAttribute="top" id="hET-sh-H4I"/>
+                            <constraint firstAttribute="height" constant="47" id="vzL-Ce-Htp"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIa-by-cfg">
+                        <rect key="frame" x="10" y="149" width="300" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="预约人电话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntg-ES-vl0">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.4039215686" green="0.4039215686" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="宝马3系  2017款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWX-pz-M9w">
+                                <rect key="frame" x="0.0" y="26" width="300" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="bsk-hX-yfm"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D5X-G5-CxR">
+                        <rect key="frame" x="10" y="216" width="300" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="预约时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ2-Q2-iUl">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.4039215686" green="0.4039215686" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="宝马3系  2017款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xri-nG-Bdu">
+                                <rect key="frame" x="0.0" y="29" width="300" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="Pbx-mK-XYy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ebo-HQ-KOq" firstAttribute="leading" secondItem="5Xg-SO-8GB" secondAttribute="leading" constant="10" id="BgI-ue-2v1"/>
+                    <constraint firstItem="hIa-by-cfg" firstAttribute="leading" secondItem="5Xg-SO-8GB" secondAttribute="leading" constant="10" id="F8O-p4-xfL"/>
+                    <constraint firstAttribute="trailing" secondItem="ebo-HQ-KOq" secondAttribute="trailing" constant="10" id="GDn-T4-3Zr"/>
+                    <constraint firstItem="pKw-nt-CcD" firstAttribute="top" secondItem="ebo-HQ-KOq" secondAttribute="bottom" constant="20" id="GaH-HR-DOD"/>
+                    <constraint firstAttribute="trailing" secondItem="D5X-G5-CxR" secondAttribute="trailing" constant="10" id="iD1-Ws-eB3"/>
+                    <constraint firstItem="D5X-G5-CxR" firstAttribute="top" secondItem="hIa-by-cfg" secondAttribute="bottom" constant="20" id="iW4-ci-HyE"/>
+                    <constraint firstItem="pKw-nt-CcD" firstAttribute="leading" secondItem="5Xg-SO-8GB" secondAttribute="leading" constant="10" id="oEc-Mn-iFm"/>
+                    <constraint firstItem="hIa-by-cfg" firstAttribute="top" secondItem="pKw-nt-CcD" secondAttribute="bottom" constant="20" id="oFf-jK-zQ1"/>
+                    <constraint firstItem="ebo-HQ-KOq" firstAttribute="top" secondItem="5Xg-SO-8GB" secondAttribute="top" constant="15" id="qkl-l3-AcE"/>
+                    <constraint firstItem="D5X-G5-CxR" firstAttribute="leading" secondItem="5Xg-SO-8GB" secondAttribute="leading" constant="10" id="tQT-ZR-FNZ"/>
+                    <constraint firstAttribute="trailing" secondItem="pKw-nt-CcD" secondAttribute="trailing" constant="10" id="uT5-1v-J8e"/>
+                    <constraint firstAttribute="trailing" secondItem="hIa-by-cfg" secondAttribute="trailing" constant="10" id="w7c-d5-KfQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="CheXingCheXiL" destination="RhC-lp-8E0" id="wX3-ZX-gJZ"/>
+                <outlet property="bookDateL" destination="Xri-nG-Bdu" id="vWJ-2F-xu1"/>
+                <outlet property="customerNameLabel" destination="xWX-pz-M9w" id="tdX-rb-iV6"/>
+                <outlet property="plateNumberL" destination="YCs-ba-2O0" id="vUN-D1-ldE"/>
+            </connections>
+            <point key="canvasLocation" x="105.59999999999999" y="97.601199400299862"/>
+        </tableViewCell>
+    </objects>
+</document>

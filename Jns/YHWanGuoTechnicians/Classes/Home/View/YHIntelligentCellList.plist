@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>5</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>55</string>
+		<key>cellClass</key>
+		<string>YHQualityTableViewCell</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>55</string>
+		<key>cellClass</key>
+		<string>YHRepairTotalTableViewCell</string>
+	</dict>
+	<key>0</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>55</string>
+		<key>cellClass</key>
+		<string>YHDiagnoseView</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>195</string>
+		<key>cellClass</key>
+		<string>YHRepairPartTableViewCell</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>195</string>
+		<key>cellClass</key>
+		<string>YHRepairPartTableViewCell</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>110</string>
+		<key>cellClass</key>
+		<string>YHRepairProjectTableViewCell</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>cellHeight</key>
+		<string>105</string>
+		<key>cellClass</key>
+		<string>YHPushPhoneView</string>
+	</dict>
+</dict>
+</plist>

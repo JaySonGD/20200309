@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="110" id="I9O-we-jp0" customClass="YTDiagnoseCell">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I9O-we-jp0" id="bgq-3R-oBn">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI8-ac-o21">
+                        <rect key="frame" x="10" y="0.0" width="317" height="109.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC2-ct-sSM">
+                                <rect key="frame" x="10" y="0.0" width="262" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.63529411764705879" green="0.63529411764705879" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMb-El-MN7">
+                                <rect key="frame" x="282" y="-0.5" width="35" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="6QB-pF-CSr"/>
+                                    <constraint firstAttribute="height" constant="44" id="7vz-5Q-PMD"/>
+                                </constraints>
+                                <state key="normal" image="delete_plan"/>
+                                <connections>
+                                    <action selector="clearResultAction:" destination="I9O-we-jp0" eventType="touchUpInside" id="wgg-Tb-795"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  输入诊断结果" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6OT-33-fxu">
+                                <rect key="frame" x="10" y="53" width="297" height="44"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ECh-aY-eYT"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hO-Is-ZZP">
+                                <rect key="frame" x="10" y="53" width="297" height="44"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="diagnoseSearchAction:" destination="I9O-we-jp0" eventType="touchUpInside" id="3dG-Qo-Xy9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eMb-El-MN7" firstAttribute="leading" secondItem="TC2-ct-sSM" secondAttribute="trailing" constant="10" id="4Qm-w9-GBk"/>
+                            <constraint firstItem="8hO-Is-ZZP" firstAttribute="trailing" secondItem="6OT-33-fxu" secondAttribute="trailing" id="70c-Av-Gw6"/>
+                            <constraint firstItem="6OT-33-fxu" firstAttribute="leading" secondItem="zI8-ac-o21" secondAttribute="leading" constant="10" id="8rU-Rh-TpC"/>
+                            <constraint firstItem="8hO-Is-ZZP" firstAttribute="leading" secondItem="6OT-33-fxu" secondAttribute="leading" id="KNl-TL-37g"/>
+                            <constraint firstItem="8hO-Is-ZZP" firstAttribute="bottom" secondItem="6OT-33-fxu" secondAttribute="bottom" id="NQY-6U-DlE"/>
+                            <constraint firstItem="TC2-ct-sSM" firstAttribute="top" secondItem="zI8-ac-o21" secondAttribute="top" id="Rfs-h1-HiT"/>
+                            <constraint firstItem="6OT-33-fxu" firstAttribute="top" secondItem="TC2-ct-sSM" secondAttribute="bottom" constant="10" id="SSp-V2-5Yc"/>
+                            <constraint firstAttribute="trailing" secondItem="eMb-El-MN7" secondAttribute="trailing" id="Th1-iT-fhE"/>
+                            <constraint firstAttribute="trailing" secondItem="6OT-33-fxu" secondAttribute="trailing" constant="10" id="VoK-XK-wqG"/>
+                            <constraint firstItem="8hO-Is-ZZP" firstAttribute="top" secondItem="6OT-33-fxu" secondAttribute="top" id="hhc-D5-kfT"/>
+                            <constraint firstItem="eMb-El-MN7" firstAttribute="centerY" secondItem="TC2-ct-sSM" secondAttribute="centerY" id="ksJ-p3-9zw"/>
+                            <constraint firstItem="TC2-ct-sSM" firstAttribute="leading" secondItem="zI8-ac-o21" secondAttribute="leading" constant="10" id="zVc-hf-RAg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="zI8-ac-o21" firstAttribute="leading" secondItem="bgq-3R-oBn" secondAttribute="leading" constant="10" id="6iu-3N-NUx"/>
+                    <constraint firstAttribute="trailing" secondItem="zI8-ac-o21" secondAttribute="trailing" constant="10" id="7k7-vt-DMe"/>
+                    <constraint firstItem="zI8-ac-o21" firstAttribute="top" secondItem="bgq-3R-oBn" secondAttribute="top" id="DZU-6o-LiB"/>
+                    <constraint firstAttribute="bottom" secondItem="zI8-ac-o21" secondAttribute="bottom" id="e8Z-Rc-I8Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="diagnoseTF" destination="6OT-33-fxu" id="AbV-wC-8dd"/>
+                <outlet property="removeBtn" destination="eMb-El-MN7" id="N3D-bv-Yb7"/>
+                <outlet property="tilteLB" destination="TC2-ct-sSM" id="Ay1-sn-fEt"/>
+            </connections>
+            <point key="canvasLocation" x="151.19999999999999" y="183.50824587706148"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete_plan" width="10" height="10"/>
+    </resources>
+</document>

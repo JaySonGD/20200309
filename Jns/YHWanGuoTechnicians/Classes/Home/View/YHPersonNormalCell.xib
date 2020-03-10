@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YHPersonNormalCell">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e0B-x5-ZDY">
+                    <rect key="frame" x="12" y="14" width="16" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="vkd-BF-96B"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_7" translatesAutoresizingMaskIntoConstraints="NO" id="At2-yD-Axb">
+                    <rect key="frame" x="377" y="17" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="lZn-o1-fmS"/>
+                        <constraint firstAttribute="width" constant="16" id="w4S-i7-dzs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSI-py-mgO">
+                    <rect key="frame" x="36" y="17" width="42" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="bz5-sx-WVd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eme-N1-pVM">
+                    <rect key="frame" x="84" y="17" width="48" height="16"/>
+                    <color key="backgroundColor" red="0.83448797460000002" green="0.31879675390000001" blue="0.28623497489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="E8S-PB-ZUe"/>
+                        <constraint firstAttribute="height" constant="16" id="YoH-Nv-yeE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="-7" maxX="0.0" maxY="-5"/>
+                    <state key="normal" title="新功能">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="9"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oSI-py-mgO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" priority="999" constant="12" id="2An-ID-hyY"/>
+                <constraint firstItem="oSI-py-mgO" firstAttribute="leading" secondItem="e0B-x5-ZDY" secondAttribute="trailing" constant="8" id="4OM-mJ-LyC"/>
+                <constraint firstItem="e0B-x5-ZDY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="FRJ-51-75a"/>
+                <constraint firstItem="eme-N1-pVM" firstAttribute="leading" secondItem="oSI-py-mgO" secondAttribute="trailing" constant="6" id="M5o-SI-x0R"/>
+                <constraint firstAttribute="bottom" secondItem="e0B-x5-ZDY" secondAttribute="bottom" constant="14" id="ZQM-Ax-rdz"/>
+                <constraint firstItem="At2-yD-Axb" firstAttribute="centerY" secondItem="oSI-py-mgO" secondAttribute="centerY" id="dNh-IQ-JP9"/>
+                <constraint firstAttribute="trailing" secondItem="At2-yD-Axb" secondAttribute="trailing" constant="12" id="dmk-PD-je2"/>
+                <constraint firstItem="e0B-x5-ZDY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="kqM-np-1dt"/>
+                <constraint firstItem="eme-N1-pVM" firstAttribute="centerY" secondItem="oSI-py-mgO" secondAttribute="centerY" id="rfS-KN-Hcf"/>
+                <constraint firstItem="oSI-py-mgO" firstAttribute="centerY" secondItem="e0B-x5-ZDY" secondAttribute="centerY" id="zbh-xT-Q5z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="NewBtn" destination="eme-N1-pVM" id="A0k-6g-zXj"/>
+                <outlet property="arrowView" destination="At2-yD-Axb" id="q2E-Gx-a9N"/>
+                <outlet property="iconView" destination="e0B-x5-ZDY" id="5UK-cV-jnV"/>
+                <outlet property="megain" destination="4OM-mJ-LyC" id="UX6-UE-1pU"/>
+                <outlet property="topicL" destination="oSI-py-mgO" id="liQ-1n-fRG"/>
+            </connections>
+            <point key="canvasLocation" x="-181.59999999999999" y="-250.9745127436282"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="me_7" width="12" height="12"/>
+    </resources>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YHUploadingCell">
+            <rect key="frame" x="0.0" y="0.0" width="79" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="79" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c4J-uD-q2t">
+                        <rect key="frame" x="0.0" y="0.0" width="79" height="80"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_Uploading" translatesAutoresizingMaskIntoConstraints="NO" id="qF2-8W-m6A">
+                        <rect key="frame" x="24" y="25" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Pbf-kq-VnE"/>
+                            <constraint firstAttribute="width" constant="30" id="qm8-Yi-rbx"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="qF2-8W-m6A" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1AY-bY-YEM"/>
+                <constraint firstItem="qF2-8W-m6A" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="9aO-OA-8YZ"/>
+                <constraint firstAttribute="trailing" secondItem="c4J-uD-q2t" secondAttribute="trailing" id="IfA-Sn-EZg"/>
+                <constraint firstAttribute="bottom" secondItem="c4J-uD-q2t" secondAttribute="bottom" id="c5r-wk-hHB"/>
+                <constraint firstItem="c4J-uD-q2t" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dK1-RI-DJN"/>
+                <constraint firstItem="c4J-uD-q2t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="z7V-Qs-9U9"/>
+            </constraints>
+            <size key="customSize" width="79" height="80"/>
+            <connections>
+                <outlet property="bigImageView" destination="c4J-uD-q2t" id="hOU-J7-4RE"/>
+                <outlet property="smallImageView" destination="qF2-8W-m6A" id="mEP-TY-A3c"/>
+            </connections>
+            <point key="canvasLocation" x="36.5" y="75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_Uploading" width="31" height="23"/>
+    </resources>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--关于JNS-->
+        <scene sceneID="mRT-wm-tNQ">
+            <objects>
+                <viewController storyboardIdentifier="YHAppIntroduceController" title="关于JNS" id="ma1-c7-Wc0" customClass="YHAppIntroduceController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tJA-lC-QuK"/>
+                        <viewControllerLayoutGuide type="bottom" id="DCi-O0-kmt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gZS-Gz-vYm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQp-R5-V6u">
+                                <rect key="frame" x="150" y="506" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="STw-NP-yMc">
+                                <rect key="frame" x="10" y="74" width="580" height="526"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">       JNS是JNS（小虎）AI门店合作服务项目配套的风控智能工具APP，服务于检测和延长保修两大核心项目，包括延长保修产品售前建立“一车一况”数据，提供AI诊断和精算风控服务，以及售后保障所需的AI检测、车辆油液配比、电子电控系统匹配和故障维修最优解决方案等。
+       同时，JNS还提供工单管理、人才培训与输出、技术帮手、车况查询、项目分成以及配件供应信息链接等功能服务，满足门店高效运营、收益高增的刚需。</string>
+                                <color key="textColor" red="0.47843474149703979" green="0.47842532396316528" blue="0.47843170166015625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="STw-NP-yMc" firstAttribute="top" secondItem="tJA-lC-QuK" secondAttribute="bottom" constant="10" id="ENU-cv-i6f"/>
+                            <constraint firstItem="DCi-O0-kmt" firstAttribute="top" secondItem="STw-NP-yMc" secondAttribute="bottom" id="oUJ-1y-2Wm"/>
+                            <constraint firstAttribute="trailing" secondItem="STw-NP-yMc" secondAttribute="trailing" constant="10" id="pRg-Ta-xQD"/>
+                            <constraint firstItem="STw-NP-yMc" firstAttribute="leading" secondItem="gZS-Gz-vYm" secondAttribute="leading" constant="10" id="tCI-WY-XkV"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="textView" destination="STw-NP-yMc" id="EnR-wu-mcj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVu-CE-dxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9847.2000000000007" y="-978.26086956521749"/>
+        </scene>
+    </scenes>
+</document>

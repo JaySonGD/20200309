@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3HX-ES-9QA" customClass="YHMaintainContentView">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="488"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="保养时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trC-vH-ypY">
+                    <rect key="frame" x="0.0" y="0.0" width="376" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="1PW-5r-BkO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="具体标准" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUQ-3W-mj1">
+                    <rect key="frame" x="0.0" y="30" width="376" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Oot-1I-V4G"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="保养内容标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izt-ZR-XkQ">
+                    <rect key="frame" x="0.0" y="60" width="376" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="zvc-jb-1UA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0aL-8Q-0Ao">
+                    <rect key="frame" x="0.0" y="80" width="376" height="408"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="trC-vH-ypY" secondAttribute="trailing" id="4JG-hY-9oV"/>
+                <constraint firstAttribute="trailing" secondItem="Izt-ZR-XkQ" secondAttribute="trailing" id="JOO-zA-XFJ"/>
+                <constraint firstItem="mUQ-3W-mj1" firstAttribute="top" secondItem="trC-vH-ypY" secondAttribute="bottom" constant="10" id="Lle-Mo-wO3"/>
+                <constraint firstItem="0aL-8Q-0Ao" firstAttribute="top" secondItem="Izt-ZR-XkQ" secondAttribute="bottom" id="PeW-w2-buX"/>
+                <constraint firstItem="mUQ-3W-mj1" firstAttribute="leading" secondItem="3HX-ES-9QA" secondAttribute="leading" id="QcA-wN-moT"/>
+                <constraint firstAttribute="trailing" secondItem="mUQ-3W-mj1" secondAttribute="trailing" id="RnY-ug-Lnk"/>
+                <constraint firstItem="0aL-8Q-0Ao" firstAttribute="leading" secondItem="3HX-ES-9QA" secondAttribute="leading" id="WGP-8i-z1a"/>
+                <constraint firstItem="trC-vH-ypY" firstAttribute="top" secondItem="3HX-ES-9QA" secondAttribute="top" id="g1l-dU-lsg"/>
+                <constraint firstAttribute="trailing" secondItem="0aL-8Q-0Ao" secondAttribute="trailing" id="hYu-hv-NL3"/>
+                <constraint firstAttribute="bottom" secondItem="0aL-8Q-0Ao" secondAttribute="bottom" id="l6h-yt-ohn"/>
+                <constraint firstItem="trC-vH-ypY" firstAttribute="leading" secondItem="3HX-ES-9QA" secondAttribute="leading" id="mtS-Kk-b6m"/>
+                <constraint firstItem="Izt-ZR-XkQ" firstAttribute="top" secondItem="mUQ-3W-mj1" secondAttribute="bottom" constant="10" id="oZs-Ay-aZK"/>
+                <constraint firstItem="Izt-ZR-XkQ" firstAttribute="leading" secondItem="3HX-ES-9QA" secondAttribute="leading" id="z92-cS-2HB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="maintenanceContentView" destination="0aL-8Q-0Ao" id="sVR-Y1-WpO"/>
+                <outlet property="maintenanceStandL" destination="mUQ-3W-mj1" id="xl1-1g-rFW"/>
+                <outlet property="maintenanceTimeL" destination="trC-vH-ypY" id="PYS-SF-joc"/>
+                <outlet property="maintenanceTitleL" destination="Izt-ZR-XkQ" id="pFm-Op-fYA"/>
+            </connections>
+            <point key="canvasLocation" x="-132" y="-138"/>
+        </view>
+    </objects>
+</document>
